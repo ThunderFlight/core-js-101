@@ -382,7 +382,7 @@ describe('04-conditions-n-loops-tasks', () => {
     [
       '[]', '[[][][[]]]', '[[][]]', '', '<>', '{}', '()', '<()>', '{<>}', '[{}]',
       '[{(<()[]{}<>>)}]', '{}<>()[]', '{<>}{()}[[]](())',
-    ].forEach((str) => {
+    ].forEach((str) => { 
       assert(
         tasks.isBracketsBalanced(str),
         `'${str}' has balanced brackets, but actually not`,
